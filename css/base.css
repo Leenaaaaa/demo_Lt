@@ -1,0 +1,22 @@
+body,
+.mui-content {
+  background-color: #fff;
+}
+/*头部样式*/
+.my-header {
+  background-color: #006699;
+}
+.my-header h1,
+.my-header .mui-icon-star {
+  color: #fff;
+}
+/*底部样式*/
+.my-footer {
+  background-color: #006699;
+}
+.my-footer .mui-tab-item {
+  color: #fff;
+}
+.my-footer .mui-tab-item.mui-active {
+  color: darkorange;
+}

@@ -1,0 +1,206 @@
+/*��������6*/
+.nav-link {
+  padding: 10px;
+  box-sizing: border-box;
+}
+.nav-link a {
+  width: 33.33%;
+  float: left;
+}
+.nav-link a img {
+  width: 100%;
+}
+/*Ʒ�Ʋ���*/
+.brand {
+  padding: 6px;
+  box-sizing: border-box;
+}
+.brand .title img {
+  width: 100%;
+}
+.brand .content {
+  padding: 5px 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+.brand .content li {
+  width: 25%;
+  float: left;
+}
+.brand .content li img {
+  width: 100%;
+}
+/*�˶�����*/
+.sports {
+  padding: 6px;
+  box-sizing: border-box;
+}
+.sports .title img {
+  width: 100%;
+}
+.sports .content {
+  width: 100%;
+}
+.sports .content ul {
+  list-style: none;
+  padding: 0;
+}
+.sports .content ul li {
+  width: 50%;
+  float: left;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.sports .content ul li a {
+  box-shadow: 0 0 5px #ccc;
+  display: block;
+  overflow: hidden;
+}
+.sports .content ul li a img {
+  width: 100%;
+}
+.sports .content ul li a .name {
+  text-align: center;
+  color: #8f8f94;
+  line-height: 18px;
+  padding: 6px;
+  height: 44px;
+  font-size: 14px;
+  box-sizing: border-box;
+  display: block;
+  overflow: hidden;
+}
+.sports .content ul li a p {
+  text-align: center;
+  font-size: 12px;
+}
+.sports .content ul li a p span:first-child {
+  color: #f30;
+}
+.sports .content ul li a p span:last-child {
+  text-decoration: line-through;
+}
+.sports .content ul li a .buy-now {
+  display: block;
+  background: #006699;
+  color: #FFF;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border: none;
+}
+/*Ůʿ����*/
+.woman {
+  padding: 6px;
+  box-sizing: border-box;
+}
+.woman img {
+  width: 100%;
+}
+.woman .content {
+  width: 100%;
+}
+.woman .content ul {
+  list-style: none;
+  padding: 0;
+}
+.woman .content ul li {
+  width: 50%;
+  float: left;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.woman .content ul li a {
+  box-shadow: 0 0 5px #ccc;
+  display: block;
+  overflow: hidden;
+}
+.woman .content ul li a img {
+  width: 100%;
+}
+.woman .content ul li a .name {
+  text-align: center;
+  color: #8f8f94;
+  line-height: 18px;
+  padding: 6px;
+  height: 44px;
+  font-size: 14px;
+  box-sizing: border-box;
+  display: block;
+  overflow: hidden;
+}
+.woman .content ul li a p {
+  text-align: center;
+  font-size: 12px;
+}
+.woman .content ul li a p span:first-child {
+  color: #f30;
+}
+.woman .content ul li a p span:last-child {
+  text-decoration: line-through;
+}
+.woman .content ul li a .buy-now {
+  display: block;
+  background: #006699;
+  color: #FFF;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border: none;
+}
+/*��ʿ����*/
+.man {
+  padding: 6px;
+  box-sizing: border-box;
+}
+.man img {
+  width: 100%;
+}
+.man .content {
+  width: 100%;
+}
+.man .content ul {
+  list-style: none;
+  padding: 0;
+}
+.man .content ul li {
+  width: 50%;
+  float: left;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.man .content ul li a {
+  box-shadow: 0 0 5px #ccc;
+  display: block;
+  overflow: hidden;
+}
+.man .content ul li a img {
+  width: 100%;
+}
+.man .content ul li a .name {
+  text-align: center;
+  color: #8f8f94;
+  line-height: 18px;
+  padding: 6px;
+  height: 44px;
+  font-size: 14px;
+  box-sizing: border-box;
+  display: block;
+  overflow: hidden;
+}
+.man .content ul li a p {
+  text-align: center;
+  font-size: 12px;
+}
+.man .content ul li a p span:first-child {
+  color: #f30;
+}
+.man .content ul li a p span:last-child {
+  text-decoration: line-through;
+}
+.man .content ul li a .buy-now {
+  display: block;
+  background: #006699;
+  color: #FFF;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border: none;
+}
