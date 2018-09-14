@@ -1,0 +1,64 @@
+.product {
+  width: 100%;
+}
+.product ul {
+  list-style: none;
+  padding: 0;
+}
+.product ul li {
+  width: 50%;
+  float: left;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.product ul li a {
+  box-shadow: 0 0 5px #ccc;
+  display: block;
+  overflow: hidden;
+}
+.product ul li a img {
+  width: 100%;
+}
+.product ul li a .name {
+  text-align: center;
+  color: #8f8f94;
+  line-height: 18px;
+  padding: 6px;
+  height: 44px;
+  font-size: 14px;
+  box-sizing: border-box;
+  display: block;
+  overflow: hidden;
+}
+.product ul li a p {
+  text-align: center;
+  font-size: 12px;
+}
+.product ul li a p span:first-child {
+  color: #f30;
+}
+.product ul li a p span:last-child {
+  text-decoration: line-through;
+}
+.product ul li a .buy-now {
+  display: block;
+  background: #006699;
+  color: #FFF;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border: none;
+}
+.filter {
+  width: 94%;
+  margin: 10px auto 0;
+}
+.filter .mui-col-xs-6 {
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 14px;
+  background-color: #efeff4;
+}
+.filter .mui-col-xs-6 span {
+  font-size: 12px;
+}
