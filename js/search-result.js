@@ -3,6 +3,8 @@ var keyword = getParamsByUrl(location.href, 'keyword');
 // 当前页
 var page = 1;
 var html = '';
+// 默认升序
+var priceSort = 1;
 $(function() {
 
     mui.init({
@@ -17,6 +19,17 @@ $(function() {
             }
         }
     });
+
+    $('#priceSort').on('tap',function() {
+        // 更改价格排序条件
+        priceSort = priceSort == 1 ? 2 :1;
+        // 对之前的各种配置进行初始化
+        html = '';
+        page = 1;
+        mui('#refreshContainer').pullRefresh().refresh(true);
+        getData();
+
+    })
 
 
 
@@ -48,7 +61,8 @@ function getData() {
         data: {
             page: page++,
             pageSize: 3,
-            proName: keyword
+            proName: keyword,
+            price:priceSort
         },
         success:function(res){
             console.log(res);
