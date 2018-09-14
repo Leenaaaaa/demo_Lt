@@ -48,17 +48,23 @@
   margin-bottom: 10px;
   border: none;
 }
-.filter {
+.refreshContainer {
+  position: absolute;
+  left: 0;
+  top: 36px;
+  bottom: 50px;
+}
+.refreshContainer .filter {
   width: 94%;
   margin: 10px auto 0;
 }
-.filter .mui-col-xs-6 {
+.refreshContainer .filter .mui-col-xs-6 {
   height: 35px;
   line-height: 35px;
   text-align: center;
   font-size: 14px;
   background-color: #efeff4;
 }
-.filter .mui-col-xs-6 span {
+.refreshContainer .filter .mui-col-xs-6 span {
   font-size: 12px;
 }
