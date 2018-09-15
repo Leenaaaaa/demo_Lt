@@ -5,6 +5,8 @@ var page = 1;
 var html = '';
 // 默认升序
 var priceSort = 1;
+
+var This = null;   /*注意 页面一加载 先指向MUI的this,页面会把this存起来*/
 $(function() {
 
     mui.init({
@@ -54,7 +56,10 @@ function getParamsByUrl(url,name) {
 }
 
 function getData() {
-    var This = this;
+    if(!This) {    // 当页面一上来的时候肯定是不为真的
+        This = this;
+    }
+
     $.ajax({
         url: '/product/queryProduct',
         type: 'get',
