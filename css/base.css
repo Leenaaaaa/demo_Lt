@@ -7,7 +7,7 @@ body,
   background-color: #006699;
 }
 .my-header h1,
-.my-header .mui-icon-search {
+.my-header .mui-icon {
   color: #fff;
 }
 /*底部样式*/
