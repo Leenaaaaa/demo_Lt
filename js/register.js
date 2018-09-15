@@ -4,34 +4,34 @@
 $(function() {
     // 给注册按钮注册轻敲事件
     $('#register-btn').on('tap',function() {
-        var username = $('[name="username"]').val();
-        var mobile = $('[name="mobile"]').val();
-        var password = $('[name="password"]').val();
-        var againPass = $('[name="againPass"]').val();
-        var vCode = $('[name="vCode"]').val();
+        var username = $('[name="username"]').val().trim();
+        var mobile = $('[name="mobile"]').val().trim();
+        var password = $('[name="password"]').val().trim();
+        var againPass = $('[name="againPass"]').val().trim();
+        var vCode = $('[name="vCode"]').val().trim();
 
         if(!username){
-            //alert('1');
+            mui.toast('请输入用户名');
             return;
 
         }
         // 验证手机号码
         var myreg=/^[1][3,4,5,7,8][0-9]{9}$/;
         if (!myreg.test(mobile)) {
-            alert('请输入合法的手机号码');
+            mui.toast('请输入合法的手机号码');
             return;
         }
 
         // 验证密码
         var reg = /^[A-Za-z0-9]{6,20}$/;
         if (!reg.test(password)) {
-            alert('请输入6-20位字母数字组合的密码');
+            mui.toast('请输入6-20位字母数字组合的密码');
             return;
         }
 
 
         if(password != againPass) {
-            alert('两次密码不一致');
+            mui.toast('两次密码不一致');
             return;
         }
         // 用户输入的内容都合法 就要调用注册接口了
@@ -49,7 +49,7 @@ $(function() {
                 setTimeout(function() {
                     location.href = './login.html';
                 },2000)
-                
+
             }
         })
 
