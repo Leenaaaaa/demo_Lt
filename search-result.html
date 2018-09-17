@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="./assets/fontAwesome/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="./css/search-result.css"/>
+    <script src="./js/public.js"></script>
     <script src="assets/mui/js/mui.min.js"></script>
     <script src="./assets/zepto/zepto.min.js"></script>
     <script src="assets/artTemplate/template-native.js"></script>
     <script src="./js/search-result.js"></script>
+
 </head>
 <body>
 <header class="mui-bar mui-bar-nav my-header">
@@ -64,7 +66,7 @@
     <script id="searchTpl" type="text/html">
         <% for(var i=0;i<data.length;i++){%>
         <li>
-            <a href="javascript:;">
+            <a href="./detail.html?id=<%= data[i].id%>">
                 <img src="<%= data[i].pic[0].picAddr %>" alt=""/>
                             <span class="name">
 							<%= data[i].proName%>
